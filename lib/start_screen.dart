@@ -3,8 +3,8 @@ import 'package:flutter/material.dart';
 var img =
     '/Users/majidm/development/Flutter_projects/adv_basics/assets/images/quiz-logo.png';
 
-class Background extends StatelessWidget {
-  Background({super.key});
+class StartScreen extends StatelessWidget {
+  StartScreen({super.key});
   @override
   Widget build(context) {
     return Container(
