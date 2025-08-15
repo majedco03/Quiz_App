@@ -1,16 +1,20 @@
-# adv_basics
+Quiz App
 
-A new Flutter project.
+This is a simple quiz application developed as part of my Flutter and Dart learning journey, specifically after completing the Basics II section.
 
-## Getting Started
+Overview
 
-This project is a starting point for a Flutter application.
+The app consists of three main screens:
+	1.	Start Screen – A welcome page with a button to begin the quiz.
+	2.	Quiz Screen – Displays one question at a time with four possible answers.
+	3.	Result Screen – Shows a summary of all questions, the user’s chosen answers, and the correct answers.
 
-A few resources to get you started if this is your first Flutter project:
+Features
+	•	Multiple-choice questions with four answer options.
+	•	Color-coded result indicators for correct and incorrect answers.
+	•	Clear and simple navigation between screens.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+How It Works
+	1.	The user starts the quiz from the Start Screen.
+	2.	Each question is displayed with four answer options—selecting one moves to the next question.
+	3.	After all questions are answered, the Result Screen displays the total score with the your answers and the correct answer for each question.
